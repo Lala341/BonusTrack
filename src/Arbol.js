@@ -122,17 +122,7 @@ export default class Arbol extends React.Component {
   
     start2(){
 
-      var root = d3.hierarchy(data);
-        
-        var treeLayout = d3.tree();
-        treeLayout.size([400, 200]);
-        treeLayout(root);
-
-
-
-        
-      console.log(d3.select(this.refs.to1));
-      this.state.m.style("fill","red" );
+this.state.m.style("fill","red" );
 
 
     }
